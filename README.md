@@ -2,7 +2,7 @@
 
 Este proyecto implementa un simulador básico de sistemas operativos en Python, incluyendo planificación de procesos, gestión de memoria con paginación y acceso concurrente a archivos mediante bloqueo.
 
-## 🚀 Ejecución
+## Ejecución
 
 ### 1. Requisitos
 - Python 3.10 o superior
@@ -19,7 +19,7 @@ cd proyecto-operativos
 python simulator_full.py
 ```
 
-## ⚙️ Configuración del simulador
+## Configuración del simulador
 
 Puedes ajustar los algoritmos editando el archivo principal:
 
@@ -35,7 +35,7 @@ sched = Scheduler(algorithm="RR", quantum=2)
 mem = MemoryManager(num_frames=3, replacement="LRU")
 ```
 
-## 📊 Ejemplo de salida
+## Ejemplo de salida
 
 ```
 finished_count: 4
@@ -47,14 +47,14 @@ file_conflicts: 0
 time_elapsed: 61
 ```
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 simulator_full.py   # Código principal del simulador
 README.md           # Documentación del repositorio
 ```
 
-## 📄 Documentación
+## Documentación
 
 El informe técnico detallado se encuentra fuera de este repositorio según las entregas del curso.
 
