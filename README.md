@@ -58,6 +58,6 @@ README.md           # Documentación del repositorio
 
 El informe técnico detallado se encuentra fuera de este repositorio según las entregas del curso.
 
-## 👤 Autor
+## Autor
 
 Proyecto académico – Sistemas Operativos 2025-2.
