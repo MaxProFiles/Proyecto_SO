@@ -1,66 +1,66 @@
-Simulador de Sistemas Operativos – 2025-2
+## Simulador de Sistemas Operativos – 2025-2
 
 Este proyecto implementa un simulador básico de sistemas operativos en Python, incluyendo planificación de procesos, gestión de memoria con paginación y acceso concurrente a archivos mediante bloqueo.
 
-Ejecución
+## Ejecución
 
-Requisitos
+# Requisitos
 
-Python 3.10 o superior
+- Python 3.10 o superior
 
-No requiere librerías externas
+- No requiere librerías externas
 
-Clonar el repositorio
+## Clonar el repositorio
 
-git clone https://github.com/tuusuario/proyecto-operativos.git
-cd proyecto-operativos
-
-
-Ejecutar el simulador
-
-python simulator_full.py
+- git clone https://github.com/tuusuario/proyecto-operativos.git
+- cd proyecto-operativos
 
 
-Configuración del simulador
+## Ejecutar el simulador
+
+- python simulator_full.py
+
+
+## Configuración del simulador
 
 Puedes ajustar los algoritmos editando el archivo principal:
 
-Algoritmo de planificación: "RR", "SJF", "PRIORITY"
+- Algoritmo de planificación: "RR", "SJF", "PRIORITY"
 
-Reemplazo de páginas: "FIFO" o "LRU"
+- Reemplazo de páginas: "FIFO" o "LRU"
 
-Número de frames de memoria
+- Número de frames de memoria
 
-Quantum del Round Robin
+- Quantum del Round Robin
 
 Ejemplo:
 
-sched = Scheduler(algorithm="RR", quantum=2)
-mem = MemoryManager(num_frames=3, replacement="LRU")
+-sched = Scheduler(algorithm="RR", quantum=2)
+- mem = MemoryManager(num_frames=3, replacement="LRU")
 
 
 Ejemplo de salida
 
-finished_count: 4
-avg_waiting_time: 41.25
-avg_turnaround_time: 48.25
-cpu_utilization_percent: 44.06
-page_faults: {1: 10, 2: 6, 3: 15, 4: 2}
-file_conflicts: 0
-time_elapsed: 61
+- finished_count: 4
+- avg_waiting_time: 41.25
+- avg_turnaround_time: 48.25
+- cpu_utilization_percent: 44.06
+- page_faults: {1: 10, 2: 6, 3: 15, 4: 2}
+- file_conflicts: 0
+- time_elapsed: 61
 
 
-Estructura del proyecto
+# Estructura del proyecto
 
-simulator_full.py   # Código principal del simulador
-README.md           # Documentación del repositorio
+- simulator_full.py   # Código principal del simulador
+- README.md           # Documentación del repositorio
 
 
-Documentación
+# Documentación
 
 El informe técnico detallado se encuentra fuera de este repositorio según las entregas del curso.
 
-Autor
-Manuel Felipe Pineda Abril
-Marlon Puentes
+#Autor
+- Manuel Felipe Pineda Abril
+- Marlon Puentes
 Proyecto académico – Sistemas Operativos 2025-2.
