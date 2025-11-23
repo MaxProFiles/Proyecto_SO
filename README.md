@@ -12,7 +12,7 @@ Este proyecto implementa un simulador básico de sistemas operativos en Python, 
 
 ## Clonar el repositorio
 
-- git clone https://github.com/tuusuario/proyecto-operativos.git
+- git clone https://github.com/MaxProFiles/Proyecto_SO/blob/main/README.md
 - cd proyecto-operativos
 
 
