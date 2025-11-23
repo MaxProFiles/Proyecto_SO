@@ -35,7 +35,7 @@ Puedes ajustar los algoritmos editando el archivo principal:
 
 Ejemplo:
 
--sched = Scheduler(algorithm="RR", quantum=2)
+- sched = Scheduler(algorithm="RR", quantum=2)
 - mem = MemoryManager(num_frames=3, replacement="LRU")
 
 
@@ -58,9 +58,9 @@ Ejemplo de salida
 
 # Documentación
 
-El informe técnico detallado se encuentra fuera de este repositorio según las entregas del curso.
+El informe técnico detallado se encuentra en la carpeta docs de este repositorio.
 
-#Autor
+# Autor
 - Manuel Felipe Pineda Abril
 - Marlon Puentes
 Proyecto académico – Sistemas Operativos 2025-2.
